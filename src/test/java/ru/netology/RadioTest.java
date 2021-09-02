@@ -7,10 +7,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RadioTest {
 
     @Test
-    public void NumberStation() {
-        Radio radio = new Radio(50);
-        radio.setNumberStation(10);
-        assertEquals(10, radio.getNumberStation());
+    public void countStation() {
+        Radio radio = new Radio(5);
+        radio.setNumberStation(8);
+        assertEquals(0, radio.getNumberStation());
     }
 
     @Test
