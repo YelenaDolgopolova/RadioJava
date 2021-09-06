@@ -7,6 +7,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RadioTest {
 
     @Test
+    public void countStation() {
+        Radio radio = new Radio(5);
+        radio.setNumberStation(8);
+        assertEquals(0, radio.getNumberStation());
+    }
+
+    @Test
     public void increaseVolumeMoreMax() {
         Radio radio = new Radio();
         radio.setVolume(102);
