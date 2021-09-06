@@ -13,7 +13,7 @@ public class Radio {
     }
 
     public Radio(int count) {
-        maxNumberStation = count;
+        maxNumberStation = count-1;
     }
 
     public int nextNumberStation() {
