@@ -2,7 +2,6 @@ package ru.netology;
 
 public class Radio {
     private int numberStation;
-    private int count;
     private int maxNumberStation = 10;
     private int minNumberStation = 0;
     private int volume;
